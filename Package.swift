@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "ANSI", targets: ["ANSI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/TopScrech/ScrechKit", branch: "main")
+        .package(url: "https://github.com/TopScrech/ScrechKit", from: "1.0.0")
     ],
     targets: [
         .target(name: "ANSI", dependencies: ["ScrechKit"])
