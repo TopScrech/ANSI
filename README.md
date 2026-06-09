@@ -20,6 +20,6 @@ struct ContentView: View {
 ## Supported platforms
 - iOS 15+
 - macOS 12+
-- watchOS 8+
+- watchOS 9+
 - tvOS 15+
 - visionOS 1+
