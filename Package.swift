@@ -1,4 +1,4 @@
-// swift-tools-version: 6.3.2
+// swift-tools-version: 6.3.3
 
 import PackageDescription
 
@@ -19,6 +19,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "ANSI", dependencies: ["ScrechKit"])
-    ],
-    swiftLanguageModes: [.v6]
+    ]
 )
